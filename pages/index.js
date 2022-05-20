@@ -125,7 +125,7 @@ export default function Home() {
           <p>Soy una persona a quien le encanta mantenerse actualizado sobre tecnología, me apasiona lo que hago y me esfuerzo siempre en dar lo mejor de mi, soy responsable, respetuoso, comprometido y siempre en busca de mejora continua.</p>
           <div className={styles.HeaderButtons}>
             <div className={styles.ButtonCV}>
-              <Link href='https://drive.google.com/file/d/1ZlXa7t1VIHBaegbqlTuh_8DbH6evlYLz/view?usp=sharing'>
+              <Link href='https://drive.google.com/file/d/1DIpwry3zGW8cU6ZsztsGMkZAUXNglRhB/view?usp=sharing'>
                 <a target='_blank'>CV</a>
               </Link>
               {/* <p>CV</p> */}
