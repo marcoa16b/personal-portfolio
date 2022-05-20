@@ -1,0 +1,128 @@
+.Card {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid var(--font);
+  border-radius: 15px;
+  margin: 20px;
+  transition: .5s;
+}
+.Card:hover {
+  transform: scale(1.03);
+}
+.Card h1 {
+  height: 70px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+}
+.Card p {
+  width: 90%;
+  height: 160px;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.Tecn {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+.Tecn p {
+  height: 80px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Links {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.Links div {
+  display: flex;
+  align-items: center;
+}
+.Links div a {
+  margin: 0 15px;
+  font-size: 24px;
+  transition: .5s;
+}
+.Links div a:hover {
+  transform: scale(1.25);
+}
+
+
+@media (max-width: 930px) {
+  .Card {
+    width: 350px;
+    height: 350px;
+  }
+  .Card h1 {
+    height: 60px;
+    font-size: 32px;
+  }
+  .Card p {
+    height: 140px;
+    font-size: 18px;
+  }
+  .Tecn p {
+    height: 70px;
+    font-size: 16px;
+  }
+  .Links div a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Card {
+    width: 300px;
+    height: 300px;
+  }
+  .Card h1 {
+    height: 50px;
+    font-size: 28px;
+  }
+  .Card p {
+    height: 120px;
+    font-size: 16px;
+  }
+  .Tecn p {
+    height: 60px;
+    font-size: 14px;
+  }
+  .Links div a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .Card {
+    width: 250px;
+    height: 250px;
+  }
+  .Card h1 {
+    height: 40px;
+    font-size: 22px;
+  }
+  .Card p {
+    height: 100px;
+    font-size: 12px;
+  }
+  .Tecn p {
+    height: 40px;
+    font-size: 10px;
+  }
+  .Links div a {
+    font-size: 16px;
+  }
+}
