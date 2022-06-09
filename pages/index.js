@@ -15,16 +15,16 @@ export default function Home() {
 
   const worksList = [
     {
-      title: "App Jivis",
-      description: "Aplicacion Web Progresiva construida en React con el objetivo de contabilizar los dias libres que tienen los empleados de Distribuidora Jivis, Costa Rica.",
-      tech: ["React", "MUI", "HTML", "CSS"],
-      links: ["https://github.com/marcoa16b/pwa-JivisApp-CountDays", "https://app-jivis.vercel.app"]
+      title: "Mars Store",
+      description: "Tienda online para la venta de diversos artículos, utilizando la plataforma de printful y su API. (En construcción)",
+      tech: ["Next", "Tailwind", "Firebase", "Rest API"],
+      links: ["https://github.com/marcoa16b/ecommerce-mars-store"]
     },
     {
-      title: "App Jivis",
-      description: "Aplicacion Web Progresiva construida en React con el objetivo de contabilizar los dias libres que tienen los empleados de Distribuidora Jivis, Costa Rica.",
-      tech: ["React", "MUI", "HTML", "CSS"],
-      links: ["https://github.com/marcoa16b/pwa-JivisApp-CountDays", "https://app-jivis.vercel.app"]
+      title: "Blog personal",
+      description: "Blog personal construido en NextJS con mejoras y optimizaciones en SEO, accesibilidad y demás para mejorar el rendimiento y posicionamiento en buscadores. (En construcción)",
+      tech: ["Next", "Markdown"],
+      links: ["git push -u origin main", "https://marselit.vercel.app"]
     },
     {
       title: "App Jivis",
@@ -187,7 +187,7 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.Link}>
-              <Link href='https://www.instagram.com/marco_a16b/'>
+              <Link href='https://www.instagram.com/marselit_16/'>
                 <a target='_blank'><FaInstagram /></a>
               </Link>
             </div>
