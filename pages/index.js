@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       title: "Blog personal",
-      description: "Blog personal construido en NextJS con mejoras y optimizaciones en SEO, accesibilidad y demás para mejorar el rendimiento y posicionamiento en buscadores. (En construcción)",
+      description: "Blog personal construido en NextJS con mejoras en SEO, accesibilidad y optimizacion para mejorar el rendimiento y posicionamiento en buscadores. (En construcción)",
       tech: ["Next", "Markdown"],
       links: ["git push -u origin main", "https://marselit.vercel.app"]
     },

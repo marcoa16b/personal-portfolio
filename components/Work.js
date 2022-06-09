@@ -44,7 +44,7 @@ const Work = (props) => {
   return (
     <div className={styles.Card}>
       <h1>{work.title}</h1>
-      <p>{work.description}</p>
+      <p className={styles.DescCard}>{work.description}</p>
       <div className={styles.Tecn}>
         {
           work.tech.map((item, i) => (
